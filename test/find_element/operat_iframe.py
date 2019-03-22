@@ -15,7 +15,7 @@ def test_iframe(driver):
 
 
 if __name__ == '__main__':
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     test_iframe(driver)
     time.sleep(2)
     driver.quit()

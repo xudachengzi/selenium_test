@@ -56,10 +56,10 @@ def test_actionchains(driver):
 
 
 if __name__ == '__main__':
-    driver = webdriver.Firefox()
-    # test_mouse(driver)
-    # test_submit(driver)
-    # test_keyboard(driver)
+    driver = webdriver.Chrome()
+    test_mouse(driver)
+    test_submit(driver)
+    test_keyboard(driver)
     test_actionchains(driver)
     time.sleep(2)
     driver.quit()

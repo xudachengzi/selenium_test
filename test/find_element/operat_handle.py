@@ -25,7 +25,7 @@ def test_handle(driver):
 
 
 if __name__ == '__main__':
-    driver = webdriver.Firefox()
+    driver = webdriver.Chrome()
     test_handle(driver)
     time.sleep(2)
     driver.quit()
