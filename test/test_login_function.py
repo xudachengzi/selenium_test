@@ -66,7 +66,7 @@ def read_excel_xls(path):
 
 if __name__ == '__main__':
     driver = webdriver.Chrome()
-    login(driver, "13905740095", "740091")
+    login(driver, "13905740095", "740095")
 
     try:
         # 判断是否登录成功
